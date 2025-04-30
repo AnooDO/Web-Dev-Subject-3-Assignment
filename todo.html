@@ -33,8 +33,17 @@
   <!-- Page Content -->
   <div class="container text-start">
     <div class="form-wrapper">
-      <h1 class="mb-4 mt-5">Todo Page</h1>
-      <p>This page is currently a placeholder for future features.</p>
+      <h1 class="mb-4 mt-5">Todo List</h1>
+      <body>
+        <h1>Things to do today</h1>
+        <p id="status-message"></p>
+        <div id="loading" style="display: none;">Loading...</div>
+        <input type="text" id="todo-input" placeholder="Enter a new TODO">
+        <button id="add-todo">Add TODO</button>
+        <button id="clear-completed">Clear Completed</button>
+        <ul id="todo-list"></ul>
+        <script src="script.js"></script>
+    </body>
     </div>
   </div>
 
